@@ -1,4 +1,5 @@
 import { Typography } from "@material-tailwind/react";
+import {Link} from 'react-router-dom'
 
 function Footer(){
     return(
@@ -8,6 +9,7 @@ function Footer(){
       </Typography>
       <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
         <li>
+        <Link to = "/">
           <Typography
             as="a"
             href="/"
@@ -16,8 +18,10 @@ function Footer(){
           >
             Menu
           </Typography>
+        </Link>
         </li>
         <li>
+        <Link to = "filmes">
           <Typography
             as="a"
             href="filmes"
@@ -26,8 +30,10 @@ function Footer(){
           >
             Filmes
           </Typography>
+        </Link>
         </li>
         <li>
+        <Link to = "noticias">
           <Typography
             as="a"
             href="noticias"
@@ -36,8 +42,10 @@ function Footer(){
           >
             Noticías
           </Typography>
+        </Link>
         </li>
         <li>
+        <Link to = "contato">
           <Typography
             as="a"
             href="contato"
@@ -46,6 +54,7 @@ function Footer(){
           >
             Contato
           </Typography>
+        </Link>
         </li>
       </ul>
     </footer>
