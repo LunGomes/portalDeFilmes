@@ -1,23 +1,13 @@
 import { useState } from "react";
-import { useLocation, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Header() {
-  const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
 
-  if (
-    location.pathname === "/contato" ||
-    location.pathname === "/noticias" ||
-    (location.pathname.startsWith("/filmes/") &&
-      location.pathname.split("/").length === 3)
-  ) {
-    return null;
-  }
-
   return (
-    <div className="relative w-screen h-full z-20">
-      <header className="absolute pt-6 px-4 sm:px-10 md:px-16 lg:px-20 w-full z-30">
-        <nav className="bg-gradient-to-r from-amarelo/20 via-vanila/20 to-amarelo/20 backdrop-blur-[2px] shadow-lg rounded-3xl p-4 w-full flex items-center justify-between">
+    <div className="w-screen h-full ">
+      <header className=" pt-6 px-4 sm:px-10 md:px-16 lg:px-20 w-full z-30">
+        <nav className="bg-gradient-to-r from-amarelo via-vanila to-amarelo shadow-lg rounded-3xl p-4 w-full flex items-center justify-between">
           <Link
             to="/"
             className="flex items-center gap-2 lg:text-3xl md:text-2xl text-xl font-extrabold text-vermelho hover:text-azul transition-colors duration-300"
