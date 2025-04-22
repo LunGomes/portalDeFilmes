@@ -18,13 +18,13 @@ Este projeto tem **dupla finalidade**:
 
 ## 🧩Tecnologias utilizadas
 
-ReactJS
-Vite
-React Router DOM
-Styled Components
-Tailwind CSS
-TMDB API
-CSS Animations
+ReactJS;
+Vite;
+React Router DOM;
+Styled Components;
+Tailwind CSS;
+TMDB API;
+CSS Animations;
 
 ## 👐 Código aberto
 Este projeto é open-source! Fique à vontade para explorar, modificar, aprender com ele ou até contribuir. Caso use como base para algo legal, me marca! 😄
