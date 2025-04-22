@@ -6,7 +6,7 @@ function Meio() {
       <div className="mx-10 sm:px-2 sm:py-6 lg:px-8">
         <div className="relative isolate overflow-hidden bg-amarelo px-6 pt-16 drop-shadow-[0_0_6px_rgba(255,255,255,0.4)] sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
           <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-            <h2 className="text-6xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
+            <h2 className="text-4xl sm:text-4xl md:text-4xl lg:text-5xl font-semibold tracking-tight text-balance text-white">
               Partiu maratonar? Descubra os filmes que tão bombando!
             </h2>
             <p className="mt-6 text-lg/8 text-pretty text-white">
