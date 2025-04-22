@@ -1,20 +1,80 @@
-function Pesq(){
-    return(
-        <>
-        <div className="flex rounded-full border-2 overflow-hidden max-w-md right-7 font-[sans-serif]">
-          <input type="email" placeholder="Digite sua busca"
-            className="w-full  placeholder-white outline-none bg-mClaro text-sm px-5 py-3" />
-          <button type='button' className="flex items-center justify-center bg-marrom px-6">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width="18px" className="fill-white">
-              <path
-                d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z">
-              </path>
+import styled from 'styled-components';
+
+const StyledWrapper = styled.div`
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+  }
+
+  .input {
+    border-style: none;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    outline: none;
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+    background-color: #9E2A2B;
+    box-shadow: 0px 0px 3px #f3f3f3;
+    padding-right: 40px;
+    color: #FFF4B0;
+  }
+
+  .input::placeholder,
+  .input {
+    font-size: 17px;
+  }
+
+  .input::placeholder {
+    color: #9E2A2B;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border-style: none;
+    border-radius: 50%;
+    pointer-events: painted;
+    background-color: transparent;
+    transition: .2s linear;
+  }
+
+  .icon:focus ~ .input,
+  .input:focus {
+    box-shadow: none;
+    width: 250px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 3px solid #9E2A2B;
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }`;
+
+function Pesq() {
+  return (
+    <>
+      <StyledWrapper>
+        <div className="input-wrapper">
+          <button className="icon"> 
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="25px" width="25px">
+              <path strokeLinejoin="round" strokeLinecap="round" strokeWidth="1.5" stroke="#FFF4B0" d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z" />
+              <path strokeLinejoin="round" strokeLinecap="round" strokeWidth="1.5" stroke="#FFF4B0" d="M22 22L20 20" />
             </svg>
           </button>
-         </div>
-
-         <hr className="bg-marrom h-px m-2 border-0"></hr>
-        </>
-    )
+          <input placeholder="search.." className="input" name="text" type="text" />
+        </div>
+      </StyledWrapper>
+    </>
+  );
 }
+
 export default Pesq;

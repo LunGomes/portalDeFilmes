@@ -13,10 +13,14 @@ module.exports = withMt({
         '128': '64rem',
       },
       colors: {
-        "marrom": "#501104",
-        "mClaro": "#B0948E"
+        "vanila": "#FFF4B0",
+        "amarelo": "#E09F3E",
+        "azul": "#335C67",
+        "vermelho": "#9E2A2B",
+        "preto": "#0B0C10"
       }
     },
   },
   plugins: [],
 })
+
