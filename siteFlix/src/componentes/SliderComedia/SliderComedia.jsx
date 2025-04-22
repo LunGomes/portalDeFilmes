@@ -148,45 +148,41 @@ const SliderComedia = () => {
   }, []);
 
   return (
-    <section className="mx-20 my-10">
-      <h2 className="text-2xl font-bold text-vanila mb-6">
-        A dose diária de bom humor
-      </h2>
-      <StyledWrapper className="">
-        <div className="slider-container w-[80%] mx-auto relative">
-          <div className="gradient-mask gradient-left" />
-          <div className="gradient-mask gradient-right" />
-          <div className="slider-track">
-            {filmes.map((filme) => (
-              <div className="mt-6" key={filme.id}>
-                <Link to={`${filme.id}`}>
-                  <StyledWrapper>
-                    <div className="card m-6">
-                      <div className="blob" />
-
-                      <div className="bg flex flex-col items-ke justify-between">
-                        <img
-                          src={`${urlImg}${filme.poster_path}`}
-                          alt={filme.title}
-                          className="w-full h-full"
-                        />
-                      </div>
-                    </div>
-                  </StyledWrapper>
-                </Link>
-
-                <div className="mx-4 mt-4 text-vanila rounded-xl w-[180px] break-words shadow-sm text-left">
-                  <h2 className="text-base font-semibold">{filme.title}</h2>
-                  <p className="text-sm text-amarelo">
-                    {formatarDataBrasileira(filme.release_date)}
-                  </p>
+    <section className="w-full px-10 my-10">
+  <h2 className="text-2xl font-bold text-vanila mb-6">
+    A dose diária de bom humor
+  </h2>
+  <StyledWrapper>
+    <div className="slider-container w-full relative">
+      <div className="gradient-mask gradient-left" />
+      <div className="gradient-mask gradient-right" />
+      <div className="slider-track">
+        {filmes.map((filme) => (
+          <div className="mt-6" key={filme.id}>
+            <Link to={`${filme.id}`}>
+              <div className="card m-6">
+                <div className="blob" />
+                <div className="bg flex flex-col items-ke justify-between">
+                  <img
+                    src={`${urlImg}${filme.poster_path}`}
+                    alt={filme.title}
+                    className="w-full h-full"
+                  />
                 </div>
               </div>
-            ))}
+            </Link>
+            <div className="mx-4 mt-4 text-vanila rounded-xl w-[180px] break-words shadow-sm text-left">
+              <h2 className="text-base font-semibold">{filme.title}</h2>
+              <p className="text-sm text-amarelo">
+                {formatarDataBrasileira(filme.release_date)}
+              </p>
+            </div>
           </div>
-        </div>
-      </StyledWrapper>
-    </section>
+        ))}
+      </div>
+    </div>
+  </StyledWrapper>
+</section>
   );
 };
 

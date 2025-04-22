@@ -148,12 +148,12 @@ const SliderCartaz = () => {
   }, []);
 
   return (
-    <section className="mx-20 my-10">
+    <section className="w-full px-10 my-10">
       <h2 className="text-2xl font-bold text-vanila mb-6">
         Tá passando agora no cinema
       </h2>
       <StyledWrapper className="">
-        <div className="slider-container w-[80%] mx-auto relative">
+        <div className="slider-container mx-auto relative">
           <div className="gradient-mask gradient-left" />
           <div className="gradient-mask gradient-right" />
           <div className="slider-track">
