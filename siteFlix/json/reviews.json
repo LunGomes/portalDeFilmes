@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Lucas Andrade",
+    "title": "Um Filme Minecraft",
+    "avatar": "https://randomuser.me/api/portraits/men/12.jpg",
+    "comment": "Para quem é fã do jogo, é uma aventura divertida e cheia de referências. As crianças vão adorar, mas talvez falte um pouco mais para agradar aos mais velhos.",
+    "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/4VtkIaj76TpQNfhDHXQDdT9uBN5.jpg"
+  },
+  {
+    "name": "José da Fonseca",
+    "title": "Novocaine: À Prova de Dor",
+    "avatar": "https://randomuser.me/api/portraits/men/82.jpg",
+    "comment": "Uma divertida combinação de ação, suspense e comédia, com cenas frenéticas e criativas. Vale a pipoca!",
+    "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/knIEw2jWOxrb6ugNPEoaiYI6p77.jpg"
+  },
+  {
+    "name": "Giovanna Bento",
+    "title": "Uma Aventura Lego",
+    "avatar": "https://randomuser.me/api/portraits/women/77.jpg",
+    "comment": "Uma animação maluca, divertida e surpreendente. Cheio de referências e que agrada tanto adultos quanto crianças.",
+    "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/yFAP5ePJuKaiFNm0h3hi3P3p19E.jpg"
+  },
+  {
+    "name": "Gabrielly Camilo",
+    "title": "Mickey 17",
+    "avatar": "https://randomuser.me/api/portraits/women/22.jpg",
+    "comment": "Um sci-fi intrigante que te faz pensar. A premissa é original e as atuações são sólidas. Prepare-se para sair do cinema com muitas perguntas.",
+    "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/is1U9n0e9ofg50U1T7p2WZuIwiO.jpg"
+  },
+  {
+    "name": "Felipe Rocha",
+    "title": "Operação Vingança",
+    "avatar": "https://randomuser.me/api/portraits/men/55.jpg",
+    "comment": "Um suspense que te prende do começo ao fim. Cheio de reviravoltas e com um protagonista carismático. Recomendo para quem gosta de filmes com muita tensão.",
+    "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/bAQAGxxqwK8bcqEYLEo6cN7UNn6.jpg"
+  },
+  {
+    "name": "Mariana Ayumi",
+    "title": "G20",
+    "avatar": "https://randomuser.me/api/portraits/women/36.jpg",
+    "comment": "Muita ação e adrenalina! Se você procura um filme para desligar o cérebro e curtir sequências empolgantes, esse é o filme certo. As cenas de luta são bem coreografadas.",
+    "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wv6oWAleCJZUk5htrGg413t3GCy.jpg"
+  },
+  {
+    "name": "Renato Alves",
+    "title": "Ainda Estou Aqui",
+    "avatar": "https://randomuser.me/api/portraits/men/71.jpg",
+    "comment": "Um drama tocante sobre perda e recomeço. As atuações são muito boas e a história, apesar de triste, te deixa com uma mensagem de esperança.",
+    "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/yY0HDAGfu79cpOLQBgR3kgGZ7HS.jpg"
+  },
+  {
+    "name": "Isabella Hikari",
+    "title": "Rivais",
+    "avatar": "https://randomuser.me/api/portraits/women/59.jpg",
+    "comment": "Um filme eletrizante! A competição no tênis é intensa e o drama pessoal te prende do início ao fim. As atuações são incríveis e a trilha sonora é um show à parte.",
+    "poster": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/w1j3evHiwrGiQ6e9h1l9r66uo29.jpg"
+  },
+  {
+    "name": "Carolina Melo",
+    "title": "A Substância",
+    "avatar": "https://randomuser.me/api/portraits/women/88.jpg",
+    "comment": "Um filme que te faz refletir sobre a beleza e a juventude. A premissa é bem original e a forma como a história se desenvolve é surpreendente e, por vezes, perturbadora.",
+    "poster": "https://media.themoviedb.org/t/p/w220_and_h330_face/dBf7sO2NPpsYcEW7utocdDTKQGo.jpg"
+  }
+]
